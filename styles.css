@@ -1,0 +1,26 @@
+main {
+  display: flex;
+}
+.grid-container {
+  background-color: lightgray;
+  padding: 2px;
+}
+
+.grid-container > div {
+  margin: 2px;
+  display: flex;
+}
+
+.grid-container > div > div {
+  margin: 2px;
+  height: 18px;
+  width: 18px;
+  font-size: 8px;
+  cursor: pointer;
+}
+
+.next-btn {
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
