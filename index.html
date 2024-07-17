@@ -8,10 +8,19 @@
   </head>
   <body>
     <h1>Conway's Game of Life</h1>
-    <main>
+    <section>
+      <div class="options">
+        <div>
+          <h3>Grid Size:</h3>
+          <button class="create-grid" data-size="50">50 x 50</button>
+          <button class="create-grid" data-size="100">100 x 100</button>
+          <button class="grid-reset">Reset</button>
+        </div>
+        <button class="next-btn">Next Generation</button>
+        <button class="auto-next-btn">Auto Play</button>
+      </div>
       <div class="grid-container"></div>
-      <button class="next-btn">Next State</button>
-    </main>
+    </section>
     <script src="/index.js"></script>
   </body>
 </html>

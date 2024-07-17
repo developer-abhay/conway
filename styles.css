@@ -1,26 +1,27 @@
-main {
-  display: flex;
-}
-.grid-container {
-  background-color: lightgray;
-  padding: 2px;
+button {
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 .grid-container > div {
-  margin: 2px;
   display: flex;
 }
 
 .grid-container > div > div {
-  margin: 2px;
-  height: 18px;
-  width: 18px;
-  font-size: 8px;
+  border: 1px solid white;
+  height: 15px;
+  width: 15px;
   cursor: pointer;
+  background-color: gray;
+  font-size: 8px;
 }
 
-.next-btn {
-  height: 30px;
-  margin: 10px;
-  cursor: pointer;
+.options {
+  display: flex;
+  align-items: center;
+}
+.options > div {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
 }
